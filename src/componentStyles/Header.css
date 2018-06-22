@@ -74,6 +74,7 @@
 }
 
 .arrow-wrapper {
+  cursor: pointer;
   padding-top: 25px;
   font-size: 35px;
   -moz-animation: pulse 1.3s infinite;
@@ -94,5 +95,27 @@
   }
   60% {
     transform: translateY(5px);
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .site-title {
+    font-size: 30px;
+  }
+
+  .site-description {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-title {
+    font-size: 40px;
+  }
+
+  .site-description {
+    font-size: 15px;
+    padding-top: 10px;
   }
 }

@@ -14,7 +14,7 @@ class Header extends Component {
           </Fade>
           <Fade left>
             <h1 className="site-description">
-              Come and see what the community has to offer!
+              See what the community has to offer!
             </h1>
           </Fade>
           <Fade left>
