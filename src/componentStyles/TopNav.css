@@ -23,13 +23,13 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  min-width: 250px;
+  min-width: 270px;
   justify-content: space-between;
   color: white;
   padding-left: -50px;
   position: relative;
-  margin-left: -10px;
-  font-family: 'Roboto';
+  margin-left: -20px;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   height: 60px;
 }
@@ -61,7 +61,10 @@ a {
 
 .nav-name:hover {
   cursor: pointer;
-  color: #fefefe;
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #ffffff;
+  -webkit-fill-color: #ffffff;
+  text-shadow: 1px 0px 20px white;
 }
 
 .nav-link:hover {
