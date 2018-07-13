@@ -29,7 +29,7 @@ a {
   padding-left: -50px;
   position: relative;
   margin-left: -20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   height: 60px;
 }
@@ -51,7 +51,7 @@ a {
 
 .nav-name {
   color: white;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   display: flex;
   flex-direction: row;
@@ -89,6 +89,12 @@ a {
     justify-content: space-between;
     margin: auto;
     margin-right: 2000px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav-menu {
+    margin-left: 40px;
   }
 }
 
